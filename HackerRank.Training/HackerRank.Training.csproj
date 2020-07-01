@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Practice\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Practice\RepeatedString.pdf" />
+  </ItemGroup>
+</Project>
