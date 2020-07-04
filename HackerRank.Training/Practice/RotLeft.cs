@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-
-namespace HackerRank.Training.Practice
+﻿namespace HackerRank.Training.Practice
 {
     public static class RotLeft
     {

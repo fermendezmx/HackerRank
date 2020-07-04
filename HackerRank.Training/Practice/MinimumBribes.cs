@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace HackerRank.Training.Practice
+﻿namespace HackerRank.Training.Practice
 {
     public static class MinimumBribes
     {
