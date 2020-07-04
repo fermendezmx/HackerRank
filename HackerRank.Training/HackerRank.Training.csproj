@@ -9,5 +9,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Practice\RepeatedString.pdf" />
+    <None Remove="Practice\HourglassSum.pdf" />
+    <None Remove="Practice\EqualizeArray.pdf" />
   </ItemGroup>
 </Project>
