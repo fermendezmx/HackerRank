@@ -11,5 +11,7 @@
     <None Remove="Practice\RepeatedString.pdf" />
     <None Remove="Practice\HourglassSum.pdf" />
     <None Remove="Practice\EqualizeArray.pdf" />
+    <None Remove="Practice\RotLeft.pdf" />
+    <None Remove="Practice\MinimumBribes.pdf" />
   </ItemGroup>
 </Project>
