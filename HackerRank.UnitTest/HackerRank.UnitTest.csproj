@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <Folder Include="Practice\" />
+    <Folder Include="DataStructures\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HackerRank.Training\HackerRank.Training.csproj" />

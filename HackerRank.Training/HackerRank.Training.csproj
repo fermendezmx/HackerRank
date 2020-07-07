@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Folder Include="Practice\" />
+    <Folder Include="DataStructures\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Practice\RepeatedString.pdf" />

@@ -1,7 +1,7 @@
 using HackerRank.Training.Practice;
 using Xunit;
 
-namespace HackerRank.UnitTest
+namespace HackerRank.UnitTest.Practice
 {
     public class TRotLeft
     {
