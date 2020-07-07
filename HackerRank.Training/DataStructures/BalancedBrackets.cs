@@ -8,7 +8,7 @@ namespace HackerRank.Training.DataStructures
 
     #endregion
 
-    public static class BalancedParentheses
+    public static class BalancedBrackets
     {
         private static char[][] Tokens = {
             new char[] { '{', '}' },
@@ -16,7 +16,7 @@ namespace HackerRank.Training.DataStructures
             new char[] { '(', ')' }
         };
 
-        public static bool Solution(string expression)
+        public static string Solution(string expression)
         {
             Stack stack = new Stack();
 
@@ -28,12 +28,12 @@ namespace HackerRank.Training.DataStructures
                 }
                 else if (IsEmpty(stack) || !IsMatch((char)stack.Pop(), term))
                 {
-                    return false;
+                    return "NO";
                 }
             }
 
             // The result indicates if it is balanced or not
-            return IsEmpty(stack);
+            return IsEmpty(stack) ? "YES" : "NO";
         }
 
         private static bool IsOpenTerm(char term)

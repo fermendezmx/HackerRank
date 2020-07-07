@@ -14,5 +14,6 @@
     <None Remove="Practice\EqualizeArray.pdf" />
     <None Remove="Practice\RotLeft.pdf" />
     <None Remove="Practice\MinimumBribes.pdf" />
+    <None Remove="DataStructures\BalancedBrackets.pdf" />
   </ItemGroup>
 </Project>
