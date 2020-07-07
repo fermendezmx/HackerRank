@@ -1,8 +1,13 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 
 namespace HackerRank.Training.DataStructures
 {
+    #region Problem
+
+    // Determine if the expression has the parentheses balanced
+
+    #endregion
+
     public class BalancedParentheses
     {
         private static char[][] Tokens = {
