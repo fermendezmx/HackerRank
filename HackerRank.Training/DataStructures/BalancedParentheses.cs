@@ -8,7 +8,7 @@ namespace HackerRank.Training.DataStructures
 
     #endregion
 
-    public class BalancedParentheses
+    public static class BalancedParentheses
     {
         private static char[][] Tokens = {
             new char[] { '{', '}' },
