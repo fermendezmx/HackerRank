@@ -15,5 +15,6 @@
     <None Remove="Practice\RotLeft.pdf" />
     <None Remove="Practice\MinimumBribes.pdf" />
     <None Remove="DataStructures\BalancedBrackets.pdf" />
+    <None Remove="DataStructures\RansomNote.pdf" />
   </ItemGroup>
 </Project>

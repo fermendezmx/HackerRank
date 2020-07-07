@@ -4,7 +4,7 @@ namespace HackerRank.Training.DataStructures
 {
     #region Problem
 
-    // Determine if the expression has the parentheses balanced
+    // Determine if the expression has balanced brackets
 
     #endregion
 

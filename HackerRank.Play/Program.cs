@@ -1,5 +1,5 @@
 ﻿using System;
-using HackerRank.Training.Practice;
+using HackerRank.Training.DataStructures;
 
 namespace HackerRank.Play
 {
@@ -7,8 +7,9 @@ namespace HackerRank.Play
     {
         static void Main(string[] args)
         {
-            int[] q = { 1, 2, 5, 3, 7, 8, 6, 4 };
-            string result = MinimumBribes.Solution(q);
+            string[] m = { "two", "times", "three", "is", "not", "four" };
+            string[] n = { "two", "times", "two", "is", "four" };
+            string result = RansomNote.Solution(m, n);
 
             Console.WriteLine(result);
         }
