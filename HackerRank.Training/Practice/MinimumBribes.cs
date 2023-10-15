@@ -2,10 +2,10 @@
 {
     public static class MinimumBribes
     {
-        public static string Solution(List<int> queue)
+        public static string Solution(int[] queue)
         {
             int result = 0;
-            int n = queue.Count;
+            int n = queue.Length;
             // The person will be holding his initial position
             int person,
             // This position will point where are we placed in the queue
@@ -27,8 +27,7 @@
                     // If the person was moved forward more than 2 positions
                     if (person - position > 2) {
                         // Then is chaotic
-                        Console.WriteLine("Too chaotic");
-                        return;
+                        return "Too chaotic";
                     }
                 } else {
                     // If we find a lower ticket
@@ -46,8 +45,8 @@
                     }
                 }
             }
-            
-            Console.WriteLine(result);
+
+            return $"{result}";
         }
     }
 }
