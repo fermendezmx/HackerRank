@@ -16,5 +16,7 @@
     <None Remove="Practice\MinimumBribes.pdf" />
     <None Remove="DataStructures\BalancedBrackets.pdf" />
     <None Remove="DataStructures\RansomNote.pdf" />
+    <None Remove="Practice\ArrayManipulation.pdf" />
+    <None Remove="Practice\SherlockAndAnagrams.pdf" />
   </ItemGroup>
 </Project>
